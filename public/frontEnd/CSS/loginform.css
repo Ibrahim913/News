@@ -1,0 +1,71 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	background-color: #edc988;
+}
+form.from-login
+{
+	width: 450px;
+	padding:45px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	background-color: #132743;
+	text-align: center;
+	transition: all 0.6s ease-in-out;
+}
+form.from-login h1
+{
+	color: rgba(255 ,255 ,255 ,1);
+	text-transform: uppercase;
+	font:bold 60px tahoma;
+
+}
+form.from-login .text , 
+form.from-login .password
+{
+	width: 290px;
+	border:none;
+	background: none;
+	display: block;
+	margin: 22px auto;
+	border:2px solid #edc988;
+	padding:14px 10px;
+	outline: none;
+	color: #fff;
+	font-family: "Source Code Pro";
+	border-radius: 15px;
+	transition: 0.65s;
+}
+form.from-login .text:focus , 
+form.from-login .password:focus
+{
+	
+	width: 370px;
+	border:2px solid #132743;
+
+}
+form.from-login .submit
+{
+	border: 0;
+	background:none;
+	display: block;
+	margin:29px auto;
+	text-align: center;
+	border:2px solid #edc988;
+	padding: 14px 40px;
+	outline: none;
+	color:#fff;
+	border-radius:15px;
+	transition: 0.65s;
+	cursor: pointer;
+}
+
+form.from-login .submit:hover
+{
+	background:#132743; 
+}
